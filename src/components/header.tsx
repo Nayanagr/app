@@ -20,7 +20,7 @@ export function Header({ className }: HeaderProps) {
       <nav className="hidden items-center gap-10 md:flex flex-1 justify-center">
         <NavItem href="/" label="Creator" />
         <NavItem href="/brand" label="Brands" />
-        <NavItem href="/blog" label="Customer" />
+        <NavItem href="/blogs" label="Customer" />
         <NavItem href="/about-us-final" label="About Us" />
       </nav>
       <div className="hidden items-center gap-2 md:flex flex-1 justify-end">

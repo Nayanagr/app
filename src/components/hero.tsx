@@ -114,7 +114,7 @@ export function Hero() {
             </div>
             <span className="mt-1 text-sm font-semibold text-muted-foreground">
               Join
-              <span className="text-foreground">1000+</span>
+              <span className="text-foreground"> 1000+ </span>
               creators
             </span>
           </div>
