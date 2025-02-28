@@ -12,34 +12,55 @@ export function Section18() {
       </div>
       <div className="mt-10 mb-10">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <a
+  href="https://www.linkedin.com/in/shubham-shrivastav-b418aa287/"
+  target="_blank"
+  rel="noopener noreferrer"
+>
           <PhotoSetAbout
             link="https://www.linkedin.com/in/shubham-shrivastav-b418aa287/"
             name="Shubham Shrivastav"
             image="/images/placeholder.png"
             person={false}
             position="Founder"
-          />
+          /></a>
+          <a
+  href="https://www.linkedin.com/in/nayan-agrawal-goyal/"
+  target="_blank"
+  rel="noopener noreferrer">
           <PhotoSetAbout
-            link=""
+            link="https://www.linkedin.com/in/shivansheesahu/"
             name="Shivanshee sahu"
             image="/images/placeholder.png"
             person={false}
             position="Co-Founder"
           />
+          </a>
+          <a
+  href="https://www.linkedin.com/in/nayan-agrawal-goyal/"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <PhotoSetAbout
+    link="https://www.linkedin.com/in/nayan-agrawal-goyal/"
+    name="Nayan Agrawal"
+    image="/images/nayan.png"
+    person={false}
+    position="Co-Founder"
+  />
+</a>
+<a
+  href="https://www.linkedin.com/in/nayan-agrawal-goyal/"
+  target="_blank"
+  rel="noopener noreferrer"
+>
           <PhotoSetAbout
-            link=""
-            name="Nayan Agrawal"
-            image="/images/placeholder.png"
-            person={false}
-            position="Co-Founder"
-          />
-          <PhotoSetAbout
-            link=""
-            name="John Doe"
+            link="https://www.linkedin.com/in/shaurya-bothra-7a8a81286/"
+            name="Shaurya Bothra"
             image="/images/placeholder.png"
             person={false}
             position="-"
-          />
+          /></a>
         </div>
       </div>
       <div>

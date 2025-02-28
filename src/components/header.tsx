@@ -33,9 +33,9 @@ export function Header({ className }: HeaderProps) {
       <MobileNavbar>
         <div className="rounded-b-lg bg-background py-4 container text-foreground shadow-xl">
           <nav className="gap-1 pt-2 grid grid-cols-1">
-            <NavItem href="/creator" label="Creator" className="text-xl text-black" />
+            <NavItem href="/" label="Creator" className="text-xl text-black" />
             <NavItem href="/brand" label="Brands" className="text-xl text-black" />
-            <NavItem href="/blog" label="Customer" className="text-xl text-black" />
+            <NavItem href="/blogs" label="Customer" className="text-xl text-black" />
             <NavItem href="/about-us-final" label="About Us" className="text-xl text-black" />
             <Button size="lg" asChild className="mt-2">
               <Link href="/login" className="cursor-pointer w-auto">

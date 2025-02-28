@@ -2,10 +2,10 @@ import { ArrowDown } from "lucide-react";
 
 export function Section17() {
   return (
-    <div className="from-transparent flex p-0">
-      <div className="aspect-auto hidden md:block rounded-lg px-16">
-        <div className="mt-10 grid lg:columns-2 columns-2 flex">
-          <div className="flex justify-between p-6 rounded-xl border-border">
+    <div className="from-transparent container p-0">
+      <div className="hidden md:block rounded-lg px-16">
+        <div className="mt-10 columns-2 container">
+          <div className="justify-between p-6 rounded-xl border-border">
             <div className="text-center container rounded-3xl">
               <h3 className="font-heading font-bold text-2xl lg:text-3xl hover:text-4xl">
                 Empowering Brands
@@ -15,9 +15,9 @@ export function Section17() {
               </p>
             </div>
           </div>
-          <div className="flex justify-between rounded-lg mt-6">
+          <div className="justify-between p-6 rounded-xl border-border">
             <div className="text-center container">
-              <h3 className="font-heading font-bold lg:text-3xl hover:text-4xl">
+              <h3 className="font-heading font-bold text-2xl lg:text-3xl hover:text-4xl">
                 Enable Small Influencers
               </h3>
               <p className="my-5 text-wrap lg:text-xl text-sm">
@@ -27,8 +27,8 @@ export function Section17() {
           </div>
         </div>
         <div className="mb-32 grid gap-8">
-          <div className="flex items-center justify-between rounded-lg p-6 px-60">
-            <div className="text-center container">
+          <div className="items-center justify-between rounded-lg p-6 px-60">
+            <div className="text-center container columns:1">
               <h3 className="font-heading font-bold lg:text-3xl hover:text-4xl">
                 Discounts For Customers
               </h3>
