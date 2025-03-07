@@ -120,10 +120,10 @@ export function Hero() {
           </div>
         </div>
         <h1 className="max-w-2xl text-center font-heading text-4xl lg:text-left tracking-tight font-bold sm:text-6xl">
-          Start Earning as a Influencer
+          Start Earning as an Influencer
         </h1>
         <p className="max-w-md text-center text-lg text-muted-foreground lg:text-left sm:text-xl">
-          Create Social Media Post for Brands and earn money as a creator.
+          Create Social Media Posts for Brands and earn money as a creator.
         </p>
         <div className="grid grid-cols-2 gap-3 flex text-center">
           <button class="relative flex items-center px-6 py-3 overflow-hidden font-medium transition-all bg-yellow-500 rounded-md group">
