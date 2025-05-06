@@ -4,31 +4,31 @@ import { PricingCard } from "@/components/pricing-card";
 
 export function Pricing() {
   return (
-    <section className="flex flex-col items-center sm:gap-7 gap-10">
+    <section className="flex flex-col items-center gap-10 sm:gap-7">
       <div className="relative w-full overflow-hidden rounded-lg">
         <Image
           alt="Background image"
           src="/images/bg-about-us.png"
           width={1920}
           height={1080}
-          className="absolute inset-0 object-cover w-full h-full"
+          className="absolute inset-0 size-full object-cover"
         />
-        <div className="relative h-full flex flex-col items-center justify-center p-8">
+        <div className="relative flex h-full flex-col items-center justify-center p-8">
           <div className="flex flex-col gap-3">
             <div className="pt-20" />
-            <div className="text-center rounded-3xl shadow-xl bg-white">
-              <span className="uppercase text-center text-black">Pricing</span>
-              <h2 className="font-heading font-bold tracking-tighter sm:text-5xl text-4xl">
+            <div className="rounded-3xl bg-white text-center shadow-xl">
+              <span className="text-center uppercase text-black">Pricing</span>
+              <h2 className="font-heading text-4xl font-bold tracking-tighter sm:text-5xl">
                 Creators
               </h2>
             </div>
             <div>
-              <p className="text-lg text-muted-foreground text-balance max-w-lg text-center">
+              <p className="max-w-lg text-balance text-center text-lg text-muted-foreground">
                 Choose a tier that suits your Experience.
               </p>
             </div>
           </div>
-          <div className="mt-7 grid w-full grid-cols-1 gap-7 lg:grid-cols-2 md:px-32">
+          <div className="mt-7 grid w-full grid-cols-1 gap-7 md:px-32 lg:grid-cols-2">
             <PricingCard
               cTA="Sign Up"
               name="Free Tier"

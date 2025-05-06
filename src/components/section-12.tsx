@@ -7,24 +7,24 @@ import { Button } from "@/components/ui/button";
 
 export function Section12() {
   return (
-    <div className="items-center md:overflow-y-hidden md:grid hidden md:grid-cols-2">
-      <div className="columns-1 h-screen">
+    <div className="hidden items-center md:grid md:grid-cols-2 md:overflow-y-hidden">
+      <div className="h-screen columns-1">
         <Image
           alt="Image"
           src="/images/side-image.jpg"
           width={640}
           height={640}
-          className="max-width h-screen"
+          className="max-w-full h-screen"
         />
       </div>
-      <div className="items-center flex flex-col justify-center px-8 gap-8 py-24 min-h-screen">
+      <div className="flex min-h-screen flex-col items-center justify-center gap-8 px-8 py-24">
         <div className="flex">
           <div>
-            <h3 className="font-bold items-center text-center text-4xl">SIGN UP</h3>
+            <h3 className="items-center text-center text-4xl font-bold">SIGN UP</h3>
           </div>
         </div>
         <form className="flex flex-col gap-3 rounded-xl px-20 shadow-2xl">
-          <div className="flex rounded-lg grid-cols-3 justify-evenly py-8">
+          <div className="flex grid-cols-3 justify-evenly rounded-lg py-8">
             <Tabs defaultValue="item-1">
               <TabsList className="grid w-full grid-cols-2">
                 <TabsTrigger value="Creator" asChild={false}>
@@ -42,18 +42,18 @@ export function Section12() {
           </div>
           <div>
             <Label>Password</Label>
-            <Input type="password" placeholder="Password" className="border-input border-2" />
+            <Input type="password" placeholder="Password" className="border-2 border-input" />
           </div>
           <div>
             <Label>Confirm Password</Label>
             <Input
               type="password"
               placeholder="Confirm Password"
-              className="border-input border-2"
+              className="border-2 border-input"
             />
           </div>
-          <div className="text-center py-8">
-            <Button className="mt-2 font-semibold rounded-full text-lg">SUBMIT</Button>
+          <div className="py-8 text-center">
+            <Button className="mt-2 rounded-full text-lg font-semibold">SUBMIT</Button>
           </div>
         </form>
       </div>

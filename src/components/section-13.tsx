@@ -5,16 +5,16 @@ import { Button } from "@/components/ui/button";
 
 export function Section13() {
   return (
-    <div className="items-center block md:hidden">
+    <div className="block items-center md:hidden">
       <div className="columns-1" />
-      <div className="items-center flex-col justify-center px-8 min-h-screen gap-8 py-24 flex">
+      <div className="flex min-h-screen flex-col items-center justify-center gap-8 px-8 py-24">
         <div className="flex">
           <div>
-            <h3 className="font-bold items-center text-center text-4xl">SIGN UP</h3>
+            <h3 className="items-center text-center text-4xl font-bold">SIGN UP</h3>
           </div>
         </div>
-        <form className="flex flex-col border-2 gap-3 rounded-xl px-20">
-          <div className="flex rounded-lg grid-cols-3 justify-evenly py-8">
+        <form className="flex flex-col gap-3 rounded-xl border-2 px-20">
+          <div className="flex grid-cols-3 justify-evenly rounded-lg py-8">
             <Tabs defaultValue="item-1">
               <TabsList className="grid w-full grid-cols-2">
                 <TabsTrigger value="Creator">Creator</TabsTrigger>
@@ -30,14 +30,14 @@ export function Section13() {
           </div>
           <div>
             <Label>Password</Label>
-            <Input type="password" placeholder="Password" className="border-input border-2" />
+            <Input type="password" placeholder="Password" className="border-2 border-input" />
           </div>
           <div>
             <Label>Password</Label>
-            <Input type="password" placeholder="Password" className="border-input border-2" />
+            <Input type="password" placeholder="Password" className="border-2 border-input" />
           </div>
-          <div className="text-center py-8">
-            <Button className="mt-2 border-2 font-semibold rounded-full text-lg">SUBMIT</Button>
+          <div className="py-8 text-center">
+            <Button className="mt-2 rounded-full border-2 text-lg font-semibold">SUBMIT</Button>
           </div>
         </form>
       </div>

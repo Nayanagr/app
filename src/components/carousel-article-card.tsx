@@ -29,13 +29,13 @@ export function CarouselArticleCard({
           <Card className="h-full shadow-lg">
             <CardContent className="flex h-full flex-col items-start gap-5 p-5">
               <div className="relative h-52 w-full">
-                <Image alt={title} src={image} fill className="object-cover rounded-lg" />
+                <Image alt={title} src={image} fill className="rounded-lg object-cover" />
               </div>
               <div className="flex flex-1 flex-col gap-4">
                 <h4 className="text-lg font-semibold">{title}</h4>
                 <p className="mb-auto text-muted-foreground">{description}</p>
                 <div className="flex items-center gap-3">
-                  <span className="rounded-full border bg-accent px-3 py-0.5 text-sm text-accent-foreground bg-primary">
+                  <span className="rounded-full border bg-primary px-3 py-0.5 text-sm text-accent-foreground">
                     {category}
                   </span>
                   <span className="text-sm text-muted-foreground">{date}</span>

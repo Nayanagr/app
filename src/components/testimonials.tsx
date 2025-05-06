@@ -10,12 +10,12 @@ export function Testimonials() {
   return (
     <section className="container flex flex-col items-center gap-6 py-24 sm:gap-7">
       <div className="flex flex-col gap-3">
-        <span className="font-bold uppercase text-primary text-center">Testimonials</span>
-        <h2 className="font-heading text-3xl tracking-tight sm:text-4xl text-balance text-center font-bold md:text-5xl">
+        <span className="text-center font-bold uppercase text-primary">Testimonials</span>
+        <h2 className="text-balance text-center font-heading text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
           Explore How Creators are Earning
         </h2>
       </div>
-      <p className="text-lg text-muted-foreground text-balance max-w-lg text-center">
+      <p className="max-w-lg text-balance text-center text-lg text-muted-foreground">
         What the most earning creators say about our platform. We provide the best environment to
         make crea
       </p>

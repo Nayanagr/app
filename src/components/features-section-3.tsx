@@ -8,10 +8,10 @@ export function Features2() {
   return (
     <section className="container flex flex-col items-center gap-6 py-24 sm:gap-7">
       <div className="flex flex-col gap-3">
-        <span className="font-bold uppercase text-center shadow-inner shadow-xl rounded-3xl text-yellow-400">
+        <span className="rounded-3xl text-center font-bold uppercase text-yellow-400 shadow-xl">
           get your brand known
         </span>
-        <h2 className="font-heading text-3xl font-semibold tracking-tight sm:text-4xl text-balance text-center">
+        <h2 className="text-balance text-center font-heading text-3xl font-semibold tracking-tight sm:text-4xl">
           WITH CREATORS
         </h2>
       </div>

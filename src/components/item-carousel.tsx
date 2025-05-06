@@ -22,19 +22,19 @@ export function ItemCarousel({
   return (
     <Card
       className={cn(
-        "rounded-lg border bg-card text-card-foreground shadow-sm inline-block px-2 p-6",
+        "inline-block rounded-lg border bg-card p-6 px-2 text-card-foreground shadow-sm",
         className,
       )}
     >
-      <CardContent className="p-6 flex flex-col gap-4">
+      <CardContent className="flex flex-col gap-4 p-6">
         <div className="relative h-60">
           <Image alt="Image" src="/images/gallery5.png" fill className="object-cover" />
         </div>
-        <div className="grid-cols-2 grid">
-          <h3 className="text-2xl font-semibold leading-none tracking-tight mt-3">
+        <div className="grid grid-cols-2">
+          <h3 className="mt-3 text-2xl font-semibold leading-none tracking-tight">
             {productTitle}
           </h3>
-          <h3 className="text-2xl font-semibold leading-none mt-3 text-right">{productPrice}</h3>
+          <h3 className="mt-3 text-right text-2xl font-semibold leading-none">{productPrice}</h3>
         </div>
         <p className="text-sm text-muted-foreground">{productDes}</p>
         <Button className="mr-auto">{cTA}</Button>

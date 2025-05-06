@@ -9,18 +9,18 @@ import { SignUpButton } from "@/components/sign-up-button";
 
 export function Features() {
   return (
-    <section className="container py-24 flex flex-col items-center gap-6 sm:gap-7">
+    <section className="container flex flex-col items-center gap-6 py-24 sm:gap-7">
       <div className="flex flex-col gap-3">
-        <span className="font-bold uppercase text-primary text-center">Features</span>
-        <h2 className="font-heading text-3xl tracking-tight sm:text-4xl text-balance text-center md:text-5xl font-bold">
+        <span className="text-center font-bold uppercase text-primary">Features</span>
+        <h2 className="text-balance text-center font-heading text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
           Create Videos for Brands
         </h2>
       </div>
-      <p className="text-lg text-muted-foreground text-balance max-w-2xl text-center">
+      <p className="max-w-2xl text-balance text-center text-lg text-muted-foreground">
         When user buys from your own very link, You get a cut.
       </p>
-      <div className="grid max-w-7xl grid-cols-1 gap-4 lg:grid-cols-3 md:flex-row md:items-center mt-6 auto-rows-[18rem]">
-        <Card className="row-span-1 flex flex-col space-y-4 p-4 transition shadow-md duration-200 hover:shadow-xl h-full md:col-span-2 lg:col-span-1">
+      <div className="mt-6 grid max-w-7xl auto-rows-[18rem] grid-cols-1 gap-4 md:flex-row md:items-center lg:grid-cols-3">
+        <Card className="row-span-1 flex h-full flex-col space-y-4 p-4 shadow-md transition duration-200 hover:shadow-xl md:col-span-2 lg:col-span-1">
           <motion.div
             initial="initial"
             whileHover="animate"
@@ -59,15 +59,15 @@ export function Features() {
           </motion.div>
           <div className="transition duration-200 group-hover:translate-x-2">
             <Sparkles size={24} className="text-primary" />
-            <h3 className="my-2 font-sans font-bold text-foreground text-lg sm:text-2xl">
+            <h3 className="my-2 font-sans text-lg font-bold text-foreground sm:text-2xl">
               Select a Product
             </h3>
-            <p className="font-sans font-normal text-muted-foreground text-md">
+            <p className="text-base font-sans font-normal text-muted-foreground">
               Browse from thousands of choices.
             </p>
           </div>
         </Card>
-        <Card className="row-span-1 flex flex-col space-y-4 p-4 transition shadow-md duration-200 hover:shadow-xl h-full md:col-span-2">
+        <Card className="row-span-1 flex h-full flex-col space-y-4 p-4 shadow-md transition duration-200 hover:shadow-xl md:col-span-2">
           <motion.div
             animate="animate"
             initial="initial"
@@ -131,15 +131,15 @@ export function Features() {
           </motion.div>
           <div className="transition duration-200 group-hover:translate-x-2">
             <Rabbit size={24} className="text-primary" />
-            <h3 className="my-2 font-sans font-bold text-foreground text-lg sm:text-2xl">
+            <h3 className="my-2 font-sans text-lg font-bold text-foreground sm:text-2xl">
               Make content on the Product
             </h3>
-            <p className="font-sans font-normal text-muted-foreground text-md">
+            <p className="text-base font-sans font-normal text-muted-foreground">
               We Analyze your content and then give you own link.
             </p>
           </div>
         </Card>
-        <Card className="row-span-1 flex flex-col space-y-4 p-4 transition shadow-md duration-200 hover:shadow-xl h-full md:col-span-2">
+        <Card className="row-span-1 flex h-full flex-col space-y-4 p-4 shadow-md transition duration-200 hover:shadow-xl md:col-span-2">
           <motion.div
             style={{
               background: "linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab)",
@@ -158,15 +158,15 @@ export function Features() {
           </motion.div>
           <div className="transition duration-200 group-hover:translate-x-2">
             <Download size={24} className="text-primary" />
-            <h3 className="my-2 font-sans font-bold text-foreground text-lg sm:text-2xl">
+            <h3 className="my-2 font-sans text-lg font-bold text-foreground sm:text-2xl">
               Earn as users buy.
             </h3>
-            <p className="font-sans font-normal text-muted-foreground text-md">
+            <p className="text-base font-sans font-normal text-muted-foreground">
               And all of it goes to you.
             </p>
           </div>
         </Card>
-        <Card className="row-span-1 flex flex-col space-y-4 p-4 transition shadow-md duration-200 hover:shadow-xl h-full md:col-span-2 lg:col-span-1">
+        <Card className="row-span-1 flex h-full flex-col space-y-4 p-4 shadow-md transition duration-200 hover:shadow-xl md:col-span-2 lg:col-span-1">
           <motion.div
             initial="initial"
             whileHover="animate"
@@ -201,10 +201,10 @@ export function Features() {
           </motion.div>
           <div className="transition duration-200 group-hover:translate-x-2">
             <Code size={24} className="text-primary" />
-            <h3 className="my-2 font-sans font-bold text-foreground text-lg sm:text-2xl">
+            <h3 className="my-2 font-sans text-lg font-bold text-foreground sm:text-2xl">
               Engage Audience
             </h3>
-            <p className="font-sans font-normal text-muted-foreground text-md">
+            <p className="text-base font-sans font-normal text-muted-foreground">
               Grow as you go viral.
             </p>
           </div>

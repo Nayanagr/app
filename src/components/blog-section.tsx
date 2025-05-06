@@ -10,12 +10,12 @@ export function BlogSection() {
   return (
     <section className="container flex flex-col items-center gap-6 py-24 sm:gap-7">
       <div className="flex flex-col gap-3">
-        <span className="font-bold uppercase text-primary text-center">Articles</span>
-        <h2 className="font-heading text-3xl font-semibold tracking-tight sm:text-4xl text-balance text-center">
+        <span className="text-center font-bold uppercase text-primary">Articles</span>
+        <h2 className="text-balance text-center font-heading text-3xl font-semibold tracking-tight sm:text-4xl">
           Our Blog
         </h2>
       </div>
-      <p className="text-lg text-muted-foreground text-balance max-w-2xl text-center">
+      <p className="max-w-2xl text-balance text-center text-lg text-muted-foreground">
         Learn how to build beautiful landing pages fast.
       </p>
       <Carousel opts={{ loop: true, align: "start" }} className="mt-6 w-full px-4 xl:px-0">

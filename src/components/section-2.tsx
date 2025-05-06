@@ -3,11 +3,11 @@ import Image from "next/image";
 export function Section2() {
   return (
     <section className="sm:block lg:hidden">
-      <div className="w-full bg-background mt-32 pt-12">
-        <h2 className="font-bold tracking-tight text-center font-heading mb-8 sm:text-6xl text-5xl">
+      <div className="mt-32 w-full bg-background pt-12">
+        <h2 className="mb-8 text-center font-heading text-5xl font-bold tracking-tight sm:text-6xl">
           Brands we work with
         </h2>
-        <p className="text-muted-foreground max-w-2xl text-center px-5 text-center container pb-5 text-xl">
+        <p className="container max-w-2xl px-5 pb-5 text-center text-xl text-muted-foreground">
           Our Featured Partners
         </p>
       </div>
@@ -17,28 +17,28 @@ export function Section2() {
           src="/images/logo-3.png"
           width={400}
           height={400}
-          className="px-6 py-6"
+          className="p-6"
         />
         <Image
           alt="Image"
           src="/images/logo-3.png"
           width={400}
           height={400}
-          className="px-6 py-6"
+          className="p-6"
         />
         <Image
           alt="Image"
           src="/images/logo-4.png"
           width={400}
           height={400}
-          className="px-6 py-6"
+          className="p-6"
         />
         <Image
           alt="Image"
           src="/images/logo-4.png"
           width={400}
           height={400}
-          className="px-6 py-6"
+          className="p-6"
         />
       </div>
     </section>

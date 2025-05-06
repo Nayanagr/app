@@ -22,10 +22,10 @@ export function PhotoSetAbout({
 }: PhotoSetAboutProps) {
   return (
     <div className={cn("flex flex-col items-center", className)}>
-      <div className="bg-muted overflow-hidden">
+      <div className="overflow-hidden bg-muted">
         <Image alt="Team Member" src={image} width={400} height={500} />
       </div>
-      <h4 className="mt-4 font-heading font-bold text-center text-black text-2xl">{name}</h4>
+      <h4 className="mt-4 text-center font-heading text-2xl font-bold text-black">{name}</h4>
       <p className="text-pretty text-center text-yellow-600">{position}</p>
       <div className="flex">
         <Link href={link} className="text-xs">

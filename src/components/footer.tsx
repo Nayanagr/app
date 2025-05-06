@@ -14,7 +14,7 @@ export function Footer({ className }: FooterProps) {
   return (
     <footer
       className={cn(
-        "container mt-10 flex flex-wrap justify-between pb-16 pt-10 border-t-2",
+        "container mt-10 flex flex-wrap justify-between border-t-2 pb-16 pt-10",
         className,
       )}
     >

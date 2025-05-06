@@ -2,14 +2,14 @@ import { LogoSetAbout } from "@/components/logo-set-about";
 
 export function Section20() {
   return (
-    <div className="py-10 lg:px-32 px-10 break-words bg-gradient-to-tr from-transparent to-transparent via-amber-50">
-      <div className="grid lg:grid-cols-2 lg:mt-12">
-        <text x={0} className="font-extrabold text-left text-6xl lg:text-7xl">
+    <div className="break-words bg-gradient-to-tr from-transparent via-amber-50 to-transparent p-10 lg:px-32">
+      <div className="grid lg:mt-12 lg:grid-cols-2">
+        <text x={0} className="text-left text-6xl font-extrabold lg:text-7xl">
           INVESTORS
         </text>
       </div>
-      <div className="mt-10 mb-32">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <div className="mb-32 mt-10">
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           <LogoSetAbout
             link=""
             name="NAME"

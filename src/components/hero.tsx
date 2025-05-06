@@ -4,23 +4,23 @@ import { Avatar, AvatarImage } from "@/components/ui/avatar";
 
 export function Hero() {
   return (
-    <section className="container flex flex-col items-center gap-10 pb-28 pt-20 sm:gap-14 lg:flex-row bg-gradient-to-br">
+    <section className="container flex flex-col items-center gap-10 bg-gradient-to-br pb-28 pt-20 sm:gap-14 lg:flex-row">
       <div className="flex flex-1 flex-col items-center gap-8 lg:items-start lg:gap-10">
-        <div className="items-center flex gap-3">
+        <div className="flex items-center gap-3">
           <div className="flex">
             <Avatar className="border-2 border-white">
               <AvatarImage alt="@john" src="/images/testimonial-1.avif" />
             </Avatar>
-            <Avatar className="border-2 border-white -ml-4">
+            <Avatar className="-ml-4 border-2 border-white">
               <AvatarImage alt="@max" src="/images/testimonial-2.avif" />
             </Avatar>
-            <Avatar className="border-2 border-white -ml-4">
+            <Avatar className="-ml-4 border-2 border-white">
               <AvatarImage alt="@bob" src="/images/testimonial-3.avif" />
             </Avatar>
-            <Avatar className="border-2 border-white -ml-4">
+            <Avatar className="-ml-4 border-2 border-white">
               <AvatarImage alt="@emily" src="/images/testimonial-4.avif" />
             </Avatar>
-            <Avatar className="border-2 border-white -ml-4">
+            <Avatar className="-ml-4 border-2 border-white">
               <AvatarImage alt="@michael" src="/images/testimonial-5.avif" />
             </Avatar>
           </div>
@@ -33,9 +33,9 @@ export function Hero() {
                 height="20"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
                 className="text-yellow-500"
               >
                 <polygon
@@ -50,9 +50,9 @@ export function Hero() {
                 height="20"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
                 className="text-yellow-500"
               >
                 <polygon
@@ -67,9 +67,9 @@ export function Hero() {
                 height="20"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
                 className="text-yellow-500"
               >
                 <polygon
@@ -84,9 +84,9 @@ export function Hero() {
                 height="20"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
                 className="text-yellow-500"
               >
                 <polygon
@@ -101,9 +101,9 @@ export function Hero() {
                 height="20"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
                 className="text-yellow-500"
               >
                 <polygon
@@ -119,21 +119,21 @@ export function Hero() {
             </span>
           </div>
         </div>
-        <h1 className="max-w-2xl text-center font-heading text-4xl lg:text-left tracking-tight font-bold sm:text-6xl">
+        <h1 className="max-w-2xl text-center font-heading text-4xl font-bold tracking-tight sm:text-6xl lg:text-left">
           Start Earning as an Influencer
         </h1>
-        <p className="max-w-md text-center text-lg text-muted-foreground lg:text-left sm:text-xl">
+        <p className="max-w-md text-center text-lg text-muted-foreground sm:text-xl lg:text-left">
           Create Social Media Posts for Brands and earn money as a creator.
         </p>
-        <div className="grid grid-cols-2 gap-3 flex text-center">
-          <button className="relative flex items-center px-6 py-3 overflow-hidden font-medium transition-all bg-yellow-500 rounded-md group">
-            <span className="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-yellow-700 rounded group-hover:-mr-4 group-hover:-mt-4">
-              <span className="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white" />
+        <div className="grid grid-cols-2 gap-3 text-center">
+          <button className="group relative flex items-center overflow-hidden rounded-md bg-yellow-500 px-6 py-3 font-medium transition-all">
+            <span className="absolute right-0 top-0 inline-block size-4 rounded bg-yellow-700 transition-all duration-500 ease-in-out group-hover:-mr-4 group-hover:-mt-4">
+              <span className="absolute right-0 top-0 size-5 -translate-y-1/2 translate-x-1/2 rotate-45 bg-white" />
             </span>
-            <span className="absolute bottom-0 rotate-180 left-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-yellow-700 rounded group-hover:-ml-4 group-hover:-mb-4">
-              <span className="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white" />
+            <span className="absolute bottom-0 left-0 inline-block size-4 rotate-180 rounded bg-yellow-700 transition-all duration-500 ease-in-out group-hover:-mb-4 group-hover:-ml-4">
+              <span className="absolute right-0 top-0 size-5 -translate-y-1/2 translate-x-1/2 rotate-45 bg-white" />
             </span>
-            <span className="absolute bottom-0 left-0 w-full h-full transition-all duration-500 ease-in-out delay-200 -translate-x-full bg-yellow-400 rounded-md group-hover:translate-x-0" />
+            <span className="absolute bottom-0 left-0 size-full -translate-x-full rounded-md bg-yellow-400 transition-all delay-200 duration-500 ease-in-out group-hover:translate-x-0" />
             <span className="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-white">
               Get Started
             </span>

@@ -1,7 +1,7 @@
 export function Section14() {
   return (
     <div className="container flex">
-      <p className="text-muted-foreground text-balance">
+      <p className="text-balance text-muted-foreground">
         1. Information We Collect&lt;br&gt;&lt;br&gt;1.1 Personal
         Information&lt;br&gt;&lt;br&gt;When you register for our platform, we may
         collect:&lt;br&gt;&lt;br&gt;Name&lt;br&gt;&lt;br&gt;Email address&lt;br&gt;&lt;br&gt;Social

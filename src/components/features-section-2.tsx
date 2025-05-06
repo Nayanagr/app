@@ -18,12 +18,12 @@ export function FeaturesSection() {
       </div>
       <div className="flex flex-1 flex-col items-start gap-5">
         <div className="flex flex-col gap-3">
-          <span className="font-bold uppercase text-primary text-left">Elevate Your Sales </span>
-          <h2 className="font-heading text-3xl font-semibold tracking-tight sm:text-4xl text-balance text-left">
+          <span className="text-left font-bold uppercase text-primary">Elevate Your Sales </span>
+          <h2 className="text-balance text-left font-heading text-3xl font-semibold tracking-tight sm:text-4xl">
             Grow with Creators
           </h2>
         </div>
-        <p className="text-lg text-muted-foreground text-balance max-w-lg text-left">
+        <p className="max-w-lg text-balance text-left text-lg text-muted-foreground">
           Creators create brand content for you and with their reach you can advertise.
         </p>
         <ul className="mt-4 space-y-3">

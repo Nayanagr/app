@@ -1,5 +1,4 @@
 import type { Config } from "tailwindcss";
-
 import { fontFamily } from "tailwindcss/defaultTheme";
 
 const config = {
@@ -70,8 +69,17 @@ const config = {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
-      keyframes: {},
-      animation: {},
+      keyframes: {
+        // Add custom keyframes for scroll-left animation
+        "scroll-left": {
+          "0%": { transform: "translateX(100%)" },
+          "100%": { transform: "translateX(-100%)" },
+        },
+      },
+      animation: {
+        // Add the scroll-left animation to Tailwind's utilities
+        "scroll-left": "scroll-left 5s linear infinite",
+      },
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],
         heading: ["var(--font-heading)", ...fontFamily.sans],

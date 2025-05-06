@@ -1,10 +1,10 @@
 export function Section15() {
   return (
-    <div className="flex grid grid-cols-1">
-      <h2 className="font-heading text-3xl font-semibold tracking-tight sm:text-4xl text-balance">
+    <div className="grid grid-cols-1">
+      <h2 className="text-balance font-heading text-3xl font-semibold tracking-tight sm:text-4xl">
         Terms &amp; Condition.
       </h2>
-      <p className="text-lg text-muted-foreground text-balance">
+      <p className="text-balance text-lg text-muted-foreground">
         1. Scope of Services&lt;br&gt;&lt;br&gt;Our platform connects creators with brands to
         promote products and earn rewards based on sales performance. We act as an intermediary to
         facilitate campaigns, track performance, and manage rewards.&lt;br&gt;&lt;br&gt;2. User

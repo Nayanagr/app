@@ -5,9 +5,9 @@ import { Button } from "@/components/ui/button";
 
 export function Section5() {
   return (
-    <div className="flex container md:grid hidden grid-cols-[4fr_1fr]">
+    <div className="container hidden grid-cols-[4fr_1fr] md:grid">
       <div>
-        <h2 className="font-heading font-semibold tracking-tight sm:text-4xl text-balance text-4xl">
+        <h2 className="text-balance font-heading text-4xl font-semibold tracking-tight sm:text-4xl">
           Blog Title
         </h2>
         <Image
@@ -19,18 +19,18 @@ export function Section5() {
           placeholder="empty"
           className="container py-20"
         />
-        <p className="text-lg text-muted-foreground text-balance">
+        <p className="text-balance text-lg text-muted-foreground">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lacinia lectus velit, ut
           dictum nulla rhoncus in.
         </p>
       </div>
       <div>
-        <h2 className="font-heading font-semibold tracking-tight text-balance text-2xl">
+        <h2 className="text-balance font-heading text-2xl font-semibold tracking-tight">
           Top Blogs&lt;br&gt;
         </h2>
         <div className="h-10" />
         <Card className="rounded-lg border bg-card text-card-foreground shadow-sm">
-          <CardContent className="p-6 flex flex-col gap-4">
+          <CardContent className="flex flex-col gap-4 p-6">
             <div className="relative h-60">
               <Image
                 alt="Image"
@@ -41,7 +41,7 @@ export function Section5() {
                 className="object-cover"
               />
             </div>
-            <h3 className="text-2xl font-semibold leading-none tracking-tight mt-3">Lorem ipsum</h3>
+            <h3 className="mt-3 text-2xl font-semibold leading-none tracking-tight">Lorem ipsum</h3>
             <p className="text-sm text-muted-foreground">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
               incididunt ut.
@@ -51,7 +51,7 @@ export function Section5() {
         </Card>
         <div className="h-10" />
         <Card className="rounded-lg border bg-card text-card-foreground shadow-sm">
-          <CardContent className="p-6 flex flex-col gap-4">
+          <CardContent className="flex flex-col gap-4 p-6">
             <div className="relative h-60">
               <Image
                 alt="Image"
@@ -62,7 +62,7 @@ export function Section5() {
                 className="object-cover"
               />
             </div>
-            <h3 className="text-2xl font-semibold leading-none tracking-tight mt-3">Lorem ipsum</h3>
+            <h3 className="mt-3 text-2xl font-semibold leading-none tracking-tight">Lorem ipsum</h3>
             <p className="text-sm text-muted-foreground">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
               incididunt ut.

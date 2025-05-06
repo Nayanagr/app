@@ -3,18 +3,18 @@ import Image from "next/image";
 export function Section() {
   return (
     <div className="hidden lg:block">
-      <div className="w-full py-12 bg-background mt-32 mb-32">
-        <div className="container px-4 md:px-6 flex">
-          <h2 className="font-bold tracking-tight text-center font-heading mb-8 sm:text-6xl">
+      <div className="my-32 w-full bg-background py-12">
+        <div className="container flex px-4 md:px-6">
+          <h2 className="mb-8 text-center font-heading font-bold tracking-tight sm:text-6xl">
             Brands we work with
           </h2>
-          <p className="text-lg text-muted-foreground text-balance max-w-2xl text-center py-10 px-5">
+          <p className="max-w-2xl text-balance px-5 py-10 text-center text-lg text-muted-foreground">
             Our Featured Partners
           </p>
           <div className="w-full overflow-hidden">
-            <div className="flex animate-scroll-left">
-              <div className="flex items-center gap-12 px-4 min-w-full">
-                <div className="flex-shrink-0">
+            <div className="animate-scroll-left flex">
+              <div className="flex min-w-full items-center gap-12 px-4">
+                <div className="shrink-0">
                   <Image
                     alt="Brand Logo 1"
                     src="/images/logo-3.png"
@@ -23,7 +23,7 @@ export function Section() {
                     className="object-contain"
                   />
                 </div>
-                <div className="flex-shrink-0">
+                <div className="shrink-0">
                   <Image
                     alt="Brand Logo 2"
                     src="/images/logo-4.png"
@@ -32,7 +32,7 @@ export function Section() {
                     className="object-contain"
                   />
                 </div>
-                <div className="flex-shrink-0">
+                <div className="shrink-0">
                   <Image
                     alt="Brand Logo 3"
                     src="/images/logo-3.png"
@@ -41,7 +41,7 @@ export function Section() {
                     className="object-contain"
                   />
                 </div>
-                <div className="flex-shrink-0">
+                <div className="shrink-0">
                   <Image
                     alt="Brand Logo 4"
                     src="/images/logo-4.png"

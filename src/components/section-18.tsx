@@ -4,14 +4,14 @@ import { PhotoSetAbout } from "@/components/photo-set-about";
 
 export function Section18() {
   return (
-    <div className="lg:px-32 px-10 bg-gradient-to-tr from-transparent to-transparent via-amber-50 py-10">
-      <div className="grid lg:grid-cols-2 lg:mt-12">
-        <text x={0} className="font-extrabold text-7xl text-left">
+    <div className="bg-gradient-to-tr from-transparent via-amber-50 to-transparent p-10 lg:px-32">
+      <div className="grid lg:mt-12 lg:grid-cols-2">
+        <text x={0} className="text-left text-7xl font-extrabold">
           MEET THE TEAM
         </text>
       </div>
-      <div className="mt-10 mb-10">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <div className="my-10">
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         <a
   href="https://www.linkedin.com/in/shubham-shrivastav-b418aa287/"
   target="_blank"

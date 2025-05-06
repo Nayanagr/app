@@ -13,11 +13,11 @@ export function Testimonials2() {
   return (
     <section className="container flex flex-col items-center gap-6 py-24 sm:gap-7">
       <div className="flex flex-col gap-3">
-        <span className="font-bold uppercase text-primary text-center text-5xl">
+        <span className="text-center text-5xl font-bold uppercase text-primary">
           What OUR CREATORS SAY
         </span>
       </div>
-      <p className="text-lg text-muted-foreground text-balance max-w-lg text-center">
+      <p className="max-w-lg text-balance text-center text-lg text-muted-foreground">
         What the most earning creators say about our platform. We provide the best environment to
         make crea
       </p>
